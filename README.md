@@ -1,6 +1,6 @@
 # jv-user-score
 
-In this task you have `UserStorage` class with `getUserScore()` method.
+In this task you have `UserService` class with `getUserScore()` method.
 Method receives two parameters: arrays of strings `records` and single string element
 `email`. `records` represent database of users, each user has two parameters - 
 email and score stored as single string, so record looks like this : "someEmail@gmail.com:userScore". 
