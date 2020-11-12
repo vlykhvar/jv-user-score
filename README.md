@@ -11,28 +11,30 @@ receive, if user exists return his score in int format, if not, throw exception
 (since it's our custom logic let's create our own, unchecked, exception).
  
  
- First case example:
- ```java
- Input example:
-records = {"testEmail@gmail.com:100"};
+First case example:
+ ```
+Input example:
+records = {"testEmail@gmail.com:100",
+           "user@yahoo.com:1",
+           "second-user@gmail.com:20", 
+          ...};
 email = testEmail@gmail.com;
 ```
 
- ```java
+ ```
  Output example:
 100;
 ```
 
 Second case example:
- ```java
- Input example:
+ ```
+Input example:
 records = {"testEmail@gmail.com:100"};
 email = invalidEmail@gmail.com;
 ```
-
- ```java
- Output example:
+ ```
+Output example:  
 UserNotFoundException: User with given email doesn't exist
 ```
 
-
+### [Try to avoid these common mistakes while solving task](https://mate-academy.github.io/jv-program-common-mistakes/java-core/exceptions/user-score)
