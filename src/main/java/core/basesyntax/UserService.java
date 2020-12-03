@@ -3,7 +3,6 @@ package core.basesyntax;
 import core.basesyntax.exception.UserNotFoundException;
 
 public class UserService {
-
     public int getUserScore(String[] records, String email) {
         String getRecods = "";
         for (String record : records) {
